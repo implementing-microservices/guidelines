@@ -5,21 +5,21 @@ and tech stack they are implemented in.
 
 We recommend defining and implementing following standard targets:
 
-• start - run the code
-• stop - stop the code
-• build - build the code (typically: container image)
-• clean - clean all caches and run from scratch
-• add-module
-• remove-module
-• dependencies - ensure all modules declared in dependency management is
+- start - run the code
+- stop - stop the code
+- build - build the code (typically: container image)
+- clean - clean all caches and run from scratch
+- add-module
+- remove-module
+- dependencies - ensure all modules declared in dependency management is
 installed.
-• test - run all tests and produce coverage report
-• tests-unit - run only unit tests
-• tests-at - run only acceptance tests
-• lint - run a linter to ensure conformance of coding style with defined standards
-• migrate - run database migrations
-• add-migration - create a new database migration
-• logs - show logs (from within the container)
+- test - run all tests and produce coverage report
+- tests-unit - run only unit tests
+- tests-at - run only acceptance tests
+- lint - run a linter to ensure conformance of coding style with defined standards
+- migrate - run database migrations
+- add-migration - create a new database migration
+- logs - show logs (from within the container)
 
 ## Examples:
 
